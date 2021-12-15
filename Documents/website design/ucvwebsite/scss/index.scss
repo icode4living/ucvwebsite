@@ -1,0 +1,68 @@
+/*Variable declaration*/
+//colors
+$--blue:#2F7BFA;
+$deep-blue:#0077F6;
+$--pink:#EF005B;
+$font-color: #100F0F;
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Varela+Round&display=swap');
+$inter-font: 'Inter', sans-serif;
+$varela-font:  'Varela Round', sans-serif;
+*{
+    margin:0;
+}
+body{
+    //background-color: #f5f5f5;
+    font-family:$inter-font;
+    color:#100F0F;
+}
+/*header*/
+//nav section
+.top-nav{
+    padding: 8;
+    div{
+        display:inline-block;
+
+    }
+}
+.link{
+    margin-left: 200px;
+div, a{
+    text-decoration: none;
+    display: inline-block;
+    color:$font-color;
+    padding: 8px 10px;
+   // font-weight: 200px;
+   font-family: $varela-font;
+
+}
+a:hover{
+color: $--pink;
+text-decoration: none;
+}
+}
+.btn-group{
+    //position: relative;
+    //right: 0;
+    padding: 5px;
+    display: inline-block;
+    a{
+        text-decoration: none;
+        border: 1px dashed rgb(228, 228, 228);
+        padding: 8px;
+        font-size: 18px;
+        color:$font-color;
+
+    }
+    button{
+        color:white;
+        border-radius: 5px;
+        border:none;
+        padding: 8px;
+        font-size: 18px;
+        min-height: 50px;
+        background-color: $--pink;
+        box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    }
+}

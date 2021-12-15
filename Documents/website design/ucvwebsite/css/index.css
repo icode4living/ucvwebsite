@@ -1,0 +1,57 @@
+/*Variable declaration*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #100F0F;
+}
+
+/*header*/
+.top-nav {
+  padding: 8;
+}
+.top-nav div {
+  display: inline-block;
+}
+
+.link {
+  margin-left: 200px;
+}
+.link div, .link a {
+  text-decoration: none;
+  display: inline-block;
+  color: #100F0F;
+  padding: 8px 10px;
+  font-family: "Varela Round", sans-serif;
+}
+.link a:hover {
+  color: #EF005B;
+  text-decoration: none;
+}
+
+.btn-group {
+  padding: 5px;
+  display: inline-block;
+}
+.btn-group a {
+  text-decoration: none;
+  border: 1px dashed #e4e4e4;
+  padding: 8px;
+  font-size: 18px;
+  color: #100F0F;
+}
+.btn-group button {
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  min-height: 50px;
+  background-color: #EF005B;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=index.css.map */
